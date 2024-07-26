@@ -17,7 +17,8 @@ Technologies Used
 *qrcodejs library
 
 ##Preview:
-
+<span>Initial Look</span>
 ![First Preview](FirstPreviewOfQrCode.png)
+<span>Final Look</span>
 ![QR Code Generator Screensho](SecondQrCodeGenerator.png)
 
