@@ -62,12 +62,12 @@ border-radius: 4px;
 }
 #qrCode{
     width:100%;
-    /* margin-block:12px; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #qrCode  img{
+    padding:5px;
     overflow: hidden;
     /* width: 90%;
     height: 90%; */
