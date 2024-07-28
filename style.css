@@ -21,7 +21,6 @@ body{
     width:400px;
     border-radius: 4px;
     background-color:var(--primary-color);
-    /* width:330px; */
     padding: 20px;
     margin: 12px;
 }
@@ -63,14 +62,11 @@ border-radius: 4px;
 #qrCode{
     width:100%;
     margin-block:12px;
-    margin:20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #qrCode  img{
-    margin:5px;
-    overflow: hidden;
     width: 90%;
     height: 90%;
 }
@@ -78,9 +74,9 @@ border-radius: 4px;
     .container input{
         width:50%;
     }
-    /* #qrCode  img{
+    #qrCode  img{
         width: 80%;
         height: 80%;
-    } */
+    }
 
 }
