@@ -14,7 +14,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;
     min-height:100vh;
     background:linear-gradient(30deg,rgba(139, 164, 229, 0.5),rgba(86, 21, 146, 0.5)) ;
 }
@@ -22,7 +21,7 @@ body{
     width:400px;
     border-radius: 4px;
     background-color:var(--primary-color);
-    width:330px;
+    /* width:330px; */
     padding: 20px;
     margin: 12px;
 }
@@ -62,24 +61,24 @@ color:var(--primary-color);
 border-radius: 4px;
 }
 #qrCode{
-    width:250px;
-    margin-block:12px;
+    width:100%;
+    /* margin-block:12px; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #qrCode  img{
-    width: 90%;
-    height: 90%;
-    overflow:hidden;
+    overflow: hidden;
+    /* width: 90%;
+    height: 90%; */
 }
 @media screen and (max-width:321px){
     .container input{
         width:50%;
     }
-    #qrCode  img{
+    /* #qrCode  img{
         width: 80%;
         height: 80%;
-    }
+    } */
 
 }
