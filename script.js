@@ -10,8 +10,8 @@ generateBtn.addEventListener('click', () => {
   if (text === '') return;
   new QRCode(qrCode, {
     text: text,
-    width:250 ,
-    height: 250,
+    width:80%,
+    height:80%,
   });
 
   downloadBtn.style.display = 'block';
