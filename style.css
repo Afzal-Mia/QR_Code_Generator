@@ -61,8 +61,8 @@ color:var(--primary-color);
 border-radius: 4px;
 }
 #qrCode{
-    width:100%;\
-    margin:12px 0px;
+    width:100%;
+    margin-block:12px;
     display: flex;
     justify-content: center;
     align-items: center;
